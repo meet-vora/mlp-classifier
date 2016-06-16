@@ -1,9 +1,9 @@
-"""Definitions of Constants used in neuralnet""" 
+"""Definitions of Constants used in neuralnet"""
 
-#	Activation functions
+# Activation functions
 SIGMOID = 'sigmoid'
 SOFTMAX = 'softmax'
 
-#	Regularization method
+# Regularization method
 L2 = 'L2'
 L1 = 'L1'

@@ -5,7 +5,7 @@ A *Handwritten* **Multilayer Perceptron Classifier**
 This python implementation is an extension of artifical neural network discussed in [Python Machine Learning](https://github.com/rasbt/python-machine-learning-book) and  [Neural networks and Deep learning](http://neuralnetworksanddeeplearning.com) by extending the ANN to **deep** neural network &  including **softmax layers**, along with **log-likelihood** *loss function* and **L1** and **L2** *regularization techniques*.
 
 ### Some Basics
-An artificial neuron is mathematical function conceived as a model of biological neurons. Each of the nodes in the diagram is a a neuron, which transfer their information to the next layer through transfer function.
+An artificial neuron is mathematical function conceived as a model of biological neurons. Each of the nodes in the diagram is a neuron, which transfer their information to the next layer through transfer function.
 
 ![artificial-neuron](https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/ArtificialNeuronModel_english.png/600px-ArtificialNeuronModel_english.png)
 
