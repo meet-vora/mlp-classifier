@@ -77,7 +77,7 @@ class NeuralNetMLP(object):
 		return np.sum(np.nan_to_num(-y*np.log(a)-(1-y)*np.log(1-a)))
 
 	def log_likelihood_loss(a, y):
-		return -np.dot(y, softmax(a).transpose())
+		return -np.log(np.dot(y, softmax(a).transpose()))
 
 	def delta(a, y):
 		""" delta for both activations works out to be the same"""
